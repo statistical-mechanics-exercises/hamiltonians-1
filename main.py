@@ -1,7 +1,7 @@
 def hamiltonian( spins, H ) :
   energy = 0
   # Your code goes here
-  
+  for s in spins : energy = energy - H*s
   return energy 
   
 allup, alldown = 10*[1], 10*[-1]
